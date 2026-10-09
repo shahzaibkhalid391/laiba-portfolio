@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Laiba Noor — BS Anesthesia Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4F1EA;--ink:#12302F;--mute:#4F6663;--line:#D5D9CC;--accent:#1F7A6D;--soft:#CFE6DF;--on:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1F1E;--ink:#EAF3F0;--mute:#9DB5B0;--line:#27403D;--accent:#6CCBB8;--soft:#1B3B37;--on:#0E1F1E}}
+:root[data-theme="dark"]{--bg:#0E1F1E;--ink:#EAF3F0;--mute:#9DB5B0;--line:#27403D;--accent:#6CCBB8;--soft:#1B3B37;--on:#0E1F1E}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "Figtree",system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.25rem 0}
+header.top strong{font:600 1.15rem "Fraunces",serif}
+nav{display:flex;gap:1.5rem}
+nav a{text-decoration:none;color:var(--mute);font-weight:500}
+nav a:hover{color:var(--ink)}
+.mode{background:none;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:.35rem .9rem;font:inherit;cursor:pointer}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:2rem 3rem;align-items:center;padding:clamp(2.5rem,8vw,6rem) 0 4rem}
+.eyebrow{display:inline-block;background:var(--soft);color:var(--ink);font-weight:500;font-size:.9rem;padding:.25rem .8rem;border-radius:999px;margin:0 0 1.25rem}
+h1{margin:0;font:600 clamp(3rem,10vw,6.5rem)/1 "Fraunces",serif;letter-spacing:-.02em}
+.sub{font:400 clamp(1.15rem,2.6vw,1.5rem)/1.4 "Fraunces",serif;margin:1.25rem 0 .5rem}
+.lede{max-width:32rem;color:var(--mute);margin:0 0 1.75rem}
+.cta{display:inline-block;background:var(--accent);color:var(--on);padding:.65rem 1.4rem;border-radius:999px;font-weight:700;text-decoration:none}
+.orbwrap{position:relative;display:grid;place-items:center;aspect-ratio:1;max-width:20rem;width:100%;justify-self:center}
+.orb{position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--accent),var(--soft) 75%);animation:breathe 8s ease-in-out infinite}
+.orbwrap span{position:relative;font:500 1.1rem "Fraunces",serif;color:var(--ink);background:var(--bg);padding:.3rem .9rem;border-radius:999px}
+@keyframes breathe{0%,100%{transform:scale(.72)}50%{transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.orb{animation:none;transform:scale(.9)}}
+section{padding:3.5rem 0;border-top:1px solid var(--line)}
+h2{font:600 clamp(1.75rem,4vw,2.4rem)/1.15 "Fraunces",serif;letter-spacing:-.01em;margin:0 0 1.75rem}
+.about{max-width:40rem;margin:0 0 1rem}
+.row{display:grid;grid-template-columns:8rem 1fr;gap:.5rem 2rem}
+.row .yr{font:600 1.3rem "Fraunces",serif;color:var(--accent)}
+.row h3{margin:0;font:600 1.3rem/1.3 "Fraunces",serif}
+.row p{margin:.25rem 0 0;color:var(--mute)}
+.pill{display:inline-block;margin-top:.6rem;background:var(--soft);font-size:.85rem;font-weight:500;padding:.1rem .7rem;border-radius:999px}
+ol.learn{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 3rem}
+ol.learn li{display:grid;grid-template-columns:3rem 1fr;padding:1.1rem 0;border-top:1px solid var(--line)}
+ol.learn b{font:600 1.5rem "Fraunces",serif;color:var(--accent)}
+ol.learn strong{display:block}
+ol.learn span{color:var(--mute);font-size:.97rem}
+footer{padding:3.5rem 0 3rem;border-top:1px solid var(--line)}
+footer a.mail{font:600 clamp(1.4rem,5vw,2.6rem)/1.15 "Fraunces",serif;text-decoration-thickness:3px;text-underline-offset:.3em;word-break:break-word}
+@media(max-width:44rem){.hero{grid-template-columns:1fr}.orbwrap{max-width:13rem;order:-1;justify-self:start}.row{grid-template-columns:1fr}ol.learn{grid-template-columns:1fr}nav{gap:1rem;font-size:.95rem}}
+.glance{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem 1.5rem;margin:0;padding:1.5rem 0 2.5rem;border-top:1px solid var(--line)}
+.glance dt{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin-bottom:.15rem}
+.glance dd{margin:0;font:600 1.05rem/1.3 "Fraunces",serif}
+@media(max-width:44rem){.glance{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <strong>Laiba Noor</strong>
+    <nav aria-label="Main"><a href="#about">About</a><a href="#education">Education</a><a href="#learning">Studies</a><a href="#contact">Contact</a></nav>
+    <button class="mode" id="mode" type="button" aria-label="Switch light or dark theme">Theme</button>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div>
+        <p class="eyebrow">BS Anesthesia Student</p>
+        <h1>Laiba Noor</h1>
+        <p class="sub">BS Anesthesia, The University of Faisalabad (TUF)</p>
+        <p class="lede">Aspiring anesthesia professional, committed to patient safety, precision and compassionate care in the operation theatre.</p>
+        <a class="cta" href="#contact">Contact me</a>
+      </div>
+      <div class="orbwrap" aria-hidden="true"><div class="orb"></div><span id="breath">Breathe in</span></div>
+    </div>
+    <dl class="glance">
+      <div><dt>Degree</dt><dd>BS Anesthesia</dd></div>
+      <div><dt>University</dt><dd>The University of Faisalabad</dd></div>
+      <div><dt>Location</dt><dd>Faisalabad, Pakistan</dd></div>
+      <div><dt>Admitted</dt><dd>2026</dd></div>
+    </dl>
+
+    <section id="about">
+      <h2>Professional profile</h2>
+      <p class="about">I am an undergraduate student of BS Anesthesia at The University of Faisalabad (TUF), Faisalabad. I am building a strong foundation in the science and practice of anesthesia, with a focus on patient safety, accuracy and teamwork.</p>
+      <p class="about">My aim is to become a skilled and reliable member of a surgical team. I treat every semester as an opportunity to develop clinical knowledge and professional discipline.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="row">
+        <div class="yr">2026</div>
+        <div>
+          <h3>BS Anesthesia</h3>
+          <p>The University of Faisalabad (TUF), Faisalabad</p>
+          <span class="pill">Just started</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="learning">
+      <h2>Areas of study</h2>
+      <ol class="learn">
+        <li><b>01</b><div><strong>Anatomy and physiology</strong><span>How the human body works and responds under surgery.</span></div></li>
+        <li><b>02</b><div><strong>Pharmacology</strong><span>How anesthetic drugs act and how to use them safely.</span></div></li>
+        <li><b>03</b><div><strong>Patient monitoring</strong><span>Watching heart rate, breathing and oxygen levels during a procedure.</span></div></li>
+        <li><b>04</b><div><strong>Operation theatre practice</strong><span>Infection control, equipment and working as part of a team.</span></div></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Open to connecting with mentors, peers and professionals in healthcare.</p>
+    <a class="mail" href="mailto:laibanoorkashif@gmail.com">laibanoorkashif@gmail.com</a>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement,label=document.getElementById('breath');
+  document.getElementById('mode').addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')==='dark'||(!root.getAttribute('data-theme')&&window.matchMedia('(prefers-color-scheme: dark)').matches);
+    root.setAttribute('data-theme',dark?'light':'dark');
+  });
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){label.textContent='Stay calm';return}
+  var inhale=true;
+  setInterval(function(){inhale=!inhale;label.textContent=inhale?'Breathe in':'Breathe out'},4000);
+})();
+</script>
+</body>
+</html>
